@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Trailaring Form</title>
+<style>
+table {
+  border: 3px solid black;
+  margin: auto;
+}
+</style>
+</head>
+<body>
+<form>
+<table>
+<caption><strong>Trailaring Form</strong></caption>
+<tr>
+<td><label for="firstname">First Name:</label></td>
+<td><input type="text" name="firstname" id="firstname"></td>
+</tr>
+<tr>
+<td><label for="lastname">Last Name:</label></td>
+<td><input type="text" name="firstname" id="firstname"></td>
+</tr>
+<tr>
+<td><label for="password">Password:</label></td>
+<td><input type="password" name="password" id="password"></td>
+</tr>
+<tr>
+<td><label for="age">Age:</label></td>
+<td>
+<select name="age" id="age">
+  <option value="35">35</option>
+  <option value="36">36</option>
+  <option value="37">37</option>
+  <option value="38">38</option>
+  <option value="39">39</option>
+  <option value="40">40</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td>
+<input type="radio" name="gender" value="female" id="female">
+<label for="male">Female</label>
+<input type="radio" name="gender" value="male" id="male">
+<label for="male">Male</label>
+</td>
+</tr>
+<tr>
+<td>Hobbies:</td>
+<td>
+<input type="checkbox" name="hobbies" value="homeworking" id="homeworking">
+<label for="homeworking">HomeWorking</label>
+<input type="checkbox" name="hobbies" value="trailing" id="trailing">
+<label for="trailing">Trailing</label>
+<input type="checkbox" name="hobbies" value="music" id="music">
+<label for="music">Music</label>
+</td>
+</tr>
+<tr>
+<td><label for="district">District:</label></td>
+<td>
+  <select name="district" id="district">
+    <option value="bapatla">Bapatla</option>
+    <option value="palnadu">Palnadu</option>
+    <option value="guntur">Guntur</option>
+  </select>
+</td>
+</tr>
+<tr>
+  <td><label for="address">Address:</label></tr>
+  <td><textarea name="address" id="address"></textarea></td>
+  </tr>
+  <tr>
+    <td colspan="2" align:"center">
+      <button type="button" onclick="alert('successful registared')">submit</button>
+      <button type="button" onclick="alert('Not registared')">reset</button>
+      
+    </td>
+</table>
+</form>
+</body>
+</html>
